@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Apr 2025 pada 16.17
+-- Waktu pembuatan: 13 Apr 2025 pada 16.38
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 7.4.33
 
@@ -107,8 +107,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `user`, `username`, `password`, `img`, `is_active`, `role_id`, `email`) VALUES
 (3, 'Administrator', 'admin', '$2y$10$6v.9Z.2QHCs9yZxgCM5.cu3L0ltG.8/5ma5Fs5vr6KS9yQnNjg/M2', 'admin.png', 1, 1, 'admin@admin.com'),
-(5, 'Audia', 'audia', '$2y$10$Eehpk2YyoS7agkOHMMtw0eF/WUmudl8gGRjpVNRXH/qH/MQxN.A72', 'user2.png', 1, 3, 'audia@gmail.com'),
-(13, 'JAWI', 'uwi', '$2y$10$UKYn3XZ6WRq5EWwrh1UPi.K8zqPZ80VYCTJDsAxDxMHqQS74.75EG', 'avatar.png', 1, 5, '');
+(5, 'Audia', 'unit1', '$2y$10$ycE4xuYDRoaFHD4mPwkf7.KHV2wbbkHq14NInU4FS4ADQgPZz1MjK', 'user2.png', 1, 3, 'audia@gmail.com'),
+(13, 'urdi', 'unit2', '$2y$10$UKYn3XZ6WRq5EWwrh1UPi.K8zqPZ80VYCTJDsAxDxMHqQS74.75EG', 'avatar.png', 1, 5, '');
 
 -- --------------------------------------------------------
 
